@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict G3</title>
+</head>
+<body>
+    <h1>Predict G3</h1>
+    <form action="/predict" method="post">
+        <label for="school">School:</label>
+        <select id="school" name="school">
+            <option value="1">GP</option>
+            <option value="0">MS</option>
+        </select><br>
+
+        <label for="address">Address:</label>
+        <select id="address" name="address">
+            <option value="1">U (Urban)</option>
+            <option value="0">R (Rural)</option>
+        </select><br>
+
+        <label for="higher">Higher Education:</label>
+        <select id="higher" name="higher">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select><br>
+
+        <label for="internet">Internet Access:</label>
+        <select id="internet" name="internet">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select><br>
+
+        <label for="Medu">Mother's Education:</label>
+        <select id="Medu" name="Medu">
+            <option value="0">None</option>
+            <option value="1">Primary Education</option>
+            <option value="2">Upper-Primary Education</option>
+            <option value="3">Secondary Education</option>
+            <option value="4">Higher Education</option>
+        </select><br>
+
+        <label for="Fedu">Father's Education:</label>
+        <select id="Fedu" name="Fedu">
+            <option value="0">None</option>
+            <option value="1">Primary Education</option>
+            <option value="2">Upper-Primary Education</option>
+            <option value="3">Secondary Education</option>
+            <option value="4">Higher Education</option>
+        </select><br>
+
+        <label for="studytime">Weekly Study Time (1-4):</label>
+        <input type="number" id="studytime" name="studytime" required><br>
+
+        <label for="G1">Grade 1 (0-20):</label>
+        <input type="number" id="G1" name="G1" required><br>
+
+        <label for="G2">Grade 2 (0-20):</label>
+        <input type="number" id="G2" name="G2" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

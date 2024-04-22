@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="main">
+        <div id="page1">
+         <div id="box1">
+            <div id="profile_pic" >
+                <div id="pic"></div>
+            </div>
+            <div id="user_profile">
+                <h2>User Profile</h2>
+            </div>
+            <div id="subbox">
+                <div id="namebox"></div>
+            </div>
+         </div>
+         <div id="hero">
+            <div id="navebar">
+                <button type="button" id="nave_button">10th </button>
+                <button type="button" id="nave_button"> 11th </button>
+                <button type="button" id="nave_button"> 12th </button>
+                <button type="button" id="nave_button">1st </button>
+                <button type="button" id="nave_button">2rd </button>
+                <button type="button" id="nave_button"> 3rd </button>
+               
+            </div>
+         </div>
+         <div id="box">
+           
+         <div id="annalysis_box">
+            <div id="box-containt">
+                <a href="/analysis" >
+            <button type="button" id="b1"> Annalysis </button>
+        </a>
+                <div id="image_analysis"></div>
+        </div>    
+         </div>
+         <div id="prediction_box">
+            <div id="box-container">
+            <a href="/pre" > 
+            <button type="button" id="b2">Prediction</button>
+               </a>
+                <div id="image_prediction"></div>
+            
+            </div>
+         </div>
+         <div id="comparison_box">
+            <div id="box-container">
+                <a href="/compare">
+            <button type="button" id="b3" >Comparison</button>
+               </a>
+                <div id="image_comparison"></div>
+        </div>
+         </div>
+        </div>
+    </div>
+</body>
+</html>
+
+      

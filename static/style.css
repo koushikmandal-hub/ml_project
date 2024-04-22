@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#main #page1{
+height: 100vh;
+width: 100%;
+background-color: white;
+}
+#page1 #hero{
+height:200px;
+width: 1356px;
+background-color:  #D3FFFF;
+border-top-left-radius: 57px;
+margin-top:-900px;
+margin-left: 550px;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 20;
+}
+#page1 #box{
+height:700px; 
+ width: 1356px;
+margin-left: 550px;
+margin-top:0px;
+border-bottom-left-radius: 57px;
+background-color: #D3FFFF;
+display: flex;
+justify-content: space-evenly;
+z-index: 20;
+
+}
+
+
+#page1 #box1{
+
+height: 900px;
+width: 628px;
+padding-top: 20px;
+background-color: rgb(9, 211, 211);
+background: linear-gradient(to left bottom, rgb(4, 209, 209),rgb(174, 245, 245));
+margin-left: 0%;
+}
+
+#page1 #box1 #profile_pic{
+height: 350px;
+width: 350px;
+margin-left: 71px;
+margin-top:0px;
+background-color: #E9FFFF;
+border-radius: 43px;
+color: black;
+display: flex;
+align-items: center;
+}
+#profile_pic #pic{
+height:350px;
+width:350px;
+border-radius: 43px;
+background-image: url("profile.jpg");
+background-size: cover;
+display: flex;
+align-items: center;
+background-position: center;
+overflow: hidden;
+
+}
+
+
+#box1 #user_profile{
+height: 60px;
+width: 330px;
+margin-top: 35px;
+margin-left: 106px;
+border-radius: 40px;
+background-color: #E9FFFF;
+font-size: 28px;
+font-weight: 400;
+display: flex;
+align-items: center;
+justify-content: center;
+transform-style: preserve-3d;
+}
+
+#page1 #box1 #subbox{
+height: 250px;
+width: 440px;
+margin-top:50px;
+margin-left: 70px;
+border-radius: 40px;
+background-color: #FFFFFF;
+color: #ffffff;
+opacity: 17%;
+border: 2.5px white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#subbox #namebox{
+height: 70px;
+width:300px ;
+margin-left: 20px;
+border-radius: 40px;
+opacity: 80;
+background-color: black;
+border: 2.5px solid white;
+z-index: 50;
+}
+#page1 #hero #navebar{
+height: 80px;
+width: 1090px;
+border-radius: 50px;
+margin-top: 50px;
+background-color:white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+#hero #navebar #nave_button{
+height: 50px;
+width: 130px;
+background-color: #6fd6f3;
+color: white;
+font-size: 22px;
+border: 2px solid white;
+border-radius: 25px;
+font-family: 'Times New Roman';
+box-shadow: 0 4px #49bfb1;
+transition: all 0.3s ease;
+cursor: pointer;
+
+
+}
+
+#nave_button:hover {
+box-shadow: 0 2px #0056b3; /* Adjusted shadow on hover */
+transform: translateY(2px); /* Move button down slightly on hover */
+}
+
+/* Active (click) effect */
+#nave_button:active {
+box-shadow: none; /* Remove shadow when button is clicked */
+transform: translateY(4px); /* Further move button down on click */
+}
+
+
+
+
+#page1 #box #annalysis_box{
+height: 480px;
+width: 350px;
+margin-top: 160px;
+margin-left: 30px;
+background-color:white;
+border-radius: 60px;
+padding-top: 15px;
+box-shadow: 0 3px #67d2e3;
+transition: all 0.3s ease;
+cursor: pointer;
+border: none;
+outline: none;
+}
+
+#box #annalysis_box #image_analysis{
+height: 305px;
+width: 320px;
+margin-top: 50px;
+border-radius: 40px;
+margin-left: 15px;
+border: 2px;
+background-image: url(analysis.jpg);
+background-size: cover;
+}
+#page1 #box #prediction_box{
+height: 480px;
+width: 350px;
+margin-top: 160px;
+margin-left: 30px;
+padding-top: 15px;
+background-color:white;
+border-radius: 60px;
+box-shadow: 0 3px #67d2e3; 
+transition: all 0.3s ease;
+cursor: pointer;
+border: none;
+outline: none;
+
+}
+
+#box #prediction_box #image_prediction{
+height: 305px;
+width: 320px;
+margin-top: 50px;
+margin-left: 15px;
+border-radius: 40px;
+border: 2px;
+background-image: url(prediction.jpg);
+background-size: cover;
+}
+
+#page1 #box #comparison_box{
+height: 480px;
+width: 350px;
+margin-top: 160px;
+margin-left: 30px;
+padding-top: 15px;
+background-color: white;
+border-radius: 60px;
+box-shadow: 0 3px #67d2e3;
+transition: all 0.3s ease;
+cursor: pointer;
+border: none;
+outline: none;
+}
+
+#box #comparison_box #image_comparison{
+height: 305px;
+width: 320px;
+margin-top: 50px;
+border-radius: 40px;
+margin-left: 15px;
+border: 2px;
+background-image: url(analysis.jpg);
+background-size: cover;
+}
+
+#annalysis_box #b1{
+height:65px;
+width:320px;
+color:rgba(0, 0, 0, 0.749);
+font-size: 38px;
+font-weight: 600;
+margin-left: 15px;
+margin-top: 10px;
+text-align: center;
+background-color:rgba(245, 245, 245, 0.503);
+border-radius: 50px;
+border: none;
+outline: none;
+font-family: 'Times New Roman';
+box-shadow: 0 4px #49bfb1; 
+transition: all 0.3s ease;
+cursor: pointer;
+
+}
+
+
+#annalysis_box #b1:hover{
+background-color: rgb(81, 245, 245);
+text-shadow: black;
+
+}
+#prediction_box #b2:hover{
+background-color: rgb(81, 245, 245);
+text-shadow: black;
+
+}
+#comparison_box #b3:hover{
+background-color: rgb(81, 245, 245);
+text-shadow: black;
+}
+#page1 #user_profile:hover{
+background-color: #47ccf4;
+text-shadow: #D3FFFF;
+rotate:30;
+}
+
+#prediction_box #b2{
+height:65px;
+width:320px;
+margin-top: 10px;
+color:rgba(0, 0, 0, 0.749);
+font-size: 38px;
+font-weight: 600;
+margin-left: 15px;
+align-items: center;
+border: none;
+outline: none;
+background-color: #F8F8F8;
+border-radius: 50px;
+font-family: 'Times New Roman';
+box-shadow: 0 4px #49bfb1;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+
+
+#comparison_box #b3{
+height:65px;
+width:320px;
+margin-top: 10px;
+color: rgba(0, 0, 0, 0.749);
+font-size: 38px;
+font-weight: 600;
+margin-left: 15px;
+text-align: center;
+background-color: #F8F8F8;
+border-radius: 50px;
+border: none;
+outline: none;
+font-family: 'Times New Roman';
+box-shadow: 0 4px #49bfb1;
+transition: all 0.3s ease;
+cursor: pointer;
+
+}
+#annalysis_box:hover{
+
+background-color: #47ccf4;
+}
+#prediction_box:hover{
+
+background-color: #47ccf4;
+}
+#comparison_box:hover{
+opacity: 1;
+}
+
+
+#b3:hover {
+box-shadow: 0 2px #0056b3; /* Adjusted shadow on hover */
+transform: translateY(2px); /* Move button down slightly on hover */
+}
+
+/* click effect */
+#b3:active {
+box-shadow: none; /* Remove shadow when button is clicked */
+transform: translateY(4px); /* Further move button down on click */
+}
+
+#b2:hover {
+box-shadow: 0 2px #0056b3; /* Adjusted shadow on hover */
+transform: translateY(2px); /* Move button down slightly on hover */
+}
+
+/* click effect */
+#b2:active {
+box-shadow: none; /* Remove shadow when button is clicked */
+transform: translateY(4px); /* Further move button down on click */
+}
+
+
+#b1:hover {
+box-shadow: 0 2px #0056b3; /* Adjusted shadow on hover */
+transform: translateY(2px); /* Move button down slightly on hover */
+}
+/* click effect */
+#b1:active {
+box-shadow: none; /* Remove shadow when button is clicked */
+transform: translateY(4px); /* Further move button down on click */
+}
+
+
+

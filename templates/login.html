@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+    <title>Modern Login Page | AsmrProg</title>
+</head>
+
+<body >
+
+    <div class="container" id="container" >
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon" ><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon" ><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon" ><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span style="font-size: 12px;">or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon" ><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon" ><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon" ><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon" ><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span style="font-size: 12px;">If you  already registered enter your Username </span>
+                <input type="email" placeholder="Username">
+              
+              
+                <button style=" background-color: #17a1e1;color: #fff;font-size: 12px;padding: 10px 45px;border: 1px solid transparent;border-radius: 8px;font-weight: 600;letter-spacing: 0.5px;text-transform: uppercase;margin-top: 10px;cursor: pointer;"><a href="/dashboard">Sign In</a></button>
+            
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p >Enter your  details to use all of site features</p>
+                    <button class="hidden" id="login" >Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>For New Users</h1>
+                    <p >Register with your  details to use all of site features</p>
+                    <button class="hidden" id="register" >Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+</body>
+
+</html>
